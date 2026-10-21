@@ -73,3 +73,7 @@ html:not(.js-motion) .message-body{opacity:1;transform:none}
 .js-motion .message-body{opacity:0;transform:translateY(35px);transition:opacity .5s ease,transform .5s ease}
 .js-motion .message-body.is-revealed{opacity:1;transform:translateY(0)}
 @media(max-width:700px){.js-motion .service-diagram{transition:opacity .28s ease,transform .28s ease;clip-path:inset(0)}.js-motion .service-diagram:not(.is-active){opacity:0;transform:translateY(8px);clip-path:inset(0)}.js-motion .service-diagram.is-active{opacity:1;transform:translateY(0);clip-path:inset(0)}}
+
+/* 送信ボタンを右寄せ（案内文を削除したため） */
+.form-submit{display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:center}
+.form-submit .form-status{flex-basis:100%}
