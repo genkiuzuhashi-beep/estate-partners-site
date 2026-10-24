@@ -77,3 +77,7 @@ html:not(.js-motion) .message-body{opacity:1;transform:none}
 /* 送信ボタンを右寄せ（案内文を削除したため） */
 .form-submit{display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:center}
 .form-submit .form-status{flex-basis:100%}
+
+/* ロゴ（名刺のロゴをSVG化。色は文字色に合わせる） */
+.wordmark-mark{border:0;width:36px;height:40px;font-size:0;background:currentColor;-webkit-mask:url(assets/logo-mark.svg) center/contain no-repeat;mask:url(assets/logo-mark.svg) center/contain no-repeat}
+@media(max-width:640px){.wordmark-mark{width:31px;height:35px}}
