@@ -1,4 +1,8 @@
-const GOOGLE_FORM = { action: "", entries: { company: "", name: "", email: "", phone: "", message: "" } };
+// 送信先：先方（estatepartners2000@gmail.com）所有の Google フォーム「ホームページお問い合わせ」
+const GOOGLE_FORM = {
+  action: "https://docs.google.com/forms/d/e/1FAIpQLScplvBFGZ_2iy2tJOB59IFUtOwdeN002B_1wOz6Z25BUJmqYw/formResponse",
+  entries: { company: "entry.796929978", name: "entry.1583479861", email: "entry.1974847684", phone: "entry.1510997818", message: "entry.322382942" }
+};
 
 (() => {
   const root = document.documentElement;
